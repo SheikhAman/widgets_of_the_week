@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'widgets/animated_container.dart';
 import 'widgets/expanded.dart';
+import 'widgets/opacity.dart';
 import 'widgets/wrap.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AnimatedContainerWidget(),
+      home: OpacityWidget(),
     );
   }
 }
