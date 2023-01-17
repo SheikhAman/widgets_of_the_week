@@ -14,7 +14,6 @@ class WrapWidget extends StatelessWidget {
             // color: Colors.grey,
             height: deviceHeight,
             child: Wrap(
-              crossAxisAlignment: WrapCrossAlignment.center,
               direction: Axis.vertical,
               spacing: 8.0,
               runSpacing: 4.0,
